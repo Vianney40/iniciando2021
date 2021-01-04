@@ -1,0 +1,47 @@
+body{background-color: #ffdead;
+}
+
+/*ul{cambia los símbolos en la lista*/
+	/*-style: square; modifica los puntos de la lista
+	list-style-type: disc; bolitas rellenas 
+	list-style-type: circle; bolitas sin relleno
+
+}*/
+
+/*listas ordenadas*/
+ol{/*¿cómo lo quieres?
+	/*list-style-type: decimal;definidas
+	list-style-type: decimal-leading-zero;
+	list-style-type: upper-latin; letras mayúsculas*/
+	list-style-type: lower-latin; /*letras minúsculas*/	
+}
+
+ol{/* ¿dónde lo quieres? 
+	list-style-position: outside; posición por defecto*/
+	list-style-position: inside;
+}
+
+/*11/nov/2020*/
+.menu{/*llamar a la clase menu, aparece en forma de lista*/
+	widows: 100%; /*espacio de mi menú*/
+	background: #f4a460; /*color a  mi espacio, es una barra*/
+	list-style: none;/*limpie los puntos*/
+	margin: 0;/*espacios entre los enlaces*/
+	padding: 0; 
+}
+/**/
+.menu li{/*aparece en una barra en forma horizontal*/
+	display: inline-block;
+}
+
+ .menu li a{/*acomodando elementos*/
+       padding: 10px 20px;
+       display: inline-block;
+       color:#800000; /*cambia el color de la letra*/
+ }
+ .menu li a:hover{
+ 	background: #bc8f8f;/*cambia el color del ÁREA de sección al ingresar al vínculo*/
+ 	color: #000;/*cambia el color de la LETRA de la sección al ingresar al vínculo*/
+ }
+
+ 
