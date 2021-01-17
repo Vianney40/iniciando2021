@@ -1,0 +1,88 @@
+body{
+	background-image: url(texturametal.jpg);
+	color: #00ffff;
+}
+
+h1,h3{
+	background:#ffe4e1;
+	color:teal;
+}
+
+a{
+	background:#e0ffff;
+}
+
+p{
+	text-align: justify;
+	font-size: 20px;
+}
+
+hr{/*https://www.hazunaweb.com/curso-de-html/separadores-etiqueta-hr/
+	#:~:text=Para%20separar%20un%20texto%20de,%C3%A9sta%20no%20necesita%20ser%20cerrada.*/
+border: 0px; /* le sacamos el borde */
+height: 1px; /* le asignamos una altura */
+background-color: #696969; /* le ponemos el color que deseamos */
+}
+
+div {
+	width:50%;/*ancho*/
+	height:200px;/* alto*/
+	background:#fff0f5;/*color*/
+    margin: 20%;  /*márgenes externos  hacia todos los lados */
+    padding: 20px;/*margen  interno*/
+	border: white 8px outset;/* borde de la caja*/
+    /*borde  color  tamaño     tipo del borde*/
+	/*display:blok;/*por defecto son blok*/
+	display: line-blok;/* de tipo línea uno alado del otro*/
+	color: teal;
+	}
+
+.relativo{
+	position: relative; /*deja el espacio vacío*/
+	left:30px;
+}
+
+.absoluto{
+	position: absolute; /*deja el espacio vacío*/
+	top:60px;
+	bottom:;
+	right:0;
+	left: 210px;
+
+}
+
+.fixed{
+	position: fixed; /*deja el espacio vacío*/
+	top:60px;
+	bottom:;
+	right:;
+	left: 210px;
+}
+.float{
+	float: left;  /*deja el espacio vacío*/
+	top:60px;
+	bottom:;
+	right:;
+	left: 210px;
+}
+
+.sticky{/*https://www.w3schools.com/css/css_positioning.asp*/
+	position: sticky;
+	top:0;
+	width: 52%;
+	height: 80px;
+  padding: 3px;
+  margin: 100px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+}
+
+.santa{
+	background-image: url(santa.jpg);
+	color:#000; 
+	margin: 100px;  /*márgenes externos  hacia todos los lados */
+    padding: 20px;/*margen  interno*/
+    border-spacing: 10px;
+    text-align: right;
+   
+}
